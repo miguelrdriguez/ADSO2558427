@@ -1,0 +1,37 @@
+void main() {
+  
+  
+  final em1 = Employee(1014980);
+  em1.name = 'miguel rodriguez jimenez';
+  em1.age = 55;
+  
+  em1.renderName();
+  em1.renderAge();
+  
+  final c1 = Client(1);
+    c1.renderName();
+       }
+  
+  class Person {
+    
+    String? name;
+    int? age;
+    
+    renderName() => print('Hola $name');
+    renderAge() => print('Edad: $age');
+      }
+    
+    class Employee extends Person{
+     
+      int salary;
+       Employee(this.salary);
+    
+    }
+  
+  
+  class Client extends Person{
+    int id;
+  Client(this.id);
+    
+  }
+    
