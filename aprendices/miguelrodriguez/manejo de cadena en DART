@@ -1,0 +1,33 @@
+void main() {
+  
+  
+ var s1 ='Una cadena se puede crear con comillas simples';
+ var s2 ="Una cadena se puede crear con comillas dobles" ;
+  
+  var s3 = "It's es una oración";
+  
+  var s4 = 'Es una cadena que \n puede ser muy extensa.';
+  
+  
+   var s5 = r'Es una cadena que \n puede ser muy extensa.';
+  
+  
+  var s6 = '''
+  Me alegro muchísimo en el Señor de que al fin hayan vuelto a interesarse en mí. Claro está que tenían interés, solo que no habían tenido la oportunidad de demostrarlo. No digo esto porque esté necesitado, pues he aprendido a estar satisfecho en cualquier situación en que me encuentre. Sé lo que es vivir en la pobreza, y lo que es vivir en la abundancia. He aprendido a vivir en todas y cada una de las circunstancias, tanto a quedar saciado como a pasar hambre, a tener de sobra como a sufrir escasez. Todo lo puedo en Cristo que me fortalece.
+(Filipenses 4:10-13)''';
+  
+  
+
+  print(s1);
+  print(s2);
+  print(s3);
+  print(s4);
+  print(s5);
+  print(s6);
+ 
+  
+  
+}
+    
+  
+  
