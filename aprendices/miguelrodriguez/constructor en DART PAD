@@ -1,0 +1,20 @@
+void main(){
+  
+     final pikachu = new Pokemon('pikachu','electrico');
+  
+  print(pikachu.nombre);
+  print(pikachu.tipo);
+
+
+}
+  
+  
+  class Pokemon{
+    
+    
+    String? nombre;
+    String? tipo;
+    
+    Pokemon(this.nombre,this.tipo);
+    
+  }
